@@ -4,18 +4,18 @@
 /* you may add to or change the body rule */
 body {
     font-family: sans-serif;
-    color: #000;
     background: #000;
     margin: 0;
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
+    padding: 1rem;
+    margin-top: 2rem;
 }
 article {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 0;
+    align-items: stretch;
 }
 section {
     max-width: 45%;
@@ -23,6 +23,7 @@ section {
 h1{
     color: #fff;
     font-size: 2rem;
+    margin-bottom: 1.25rem;
 }
 header {
     display: flex;
@@ -44,28 +45,24 @@ nav ul li{
     margin-left: .75rem;
     padding: 1rem;
 }
-h2 {
-    text-align: center;
-}
 .text {
-    background: #fff;
-    padding:2rem 4rem;
+    padding:1.5rem 2rem;
     font-size: 1.15rem;
     line-height: 1.75rem;
-    margin: 1rem;
-    
+    margin: 0;
 }
 #cougar {
     background: #FFD5AE;
-    padding: 3rem;
+    padding: 2rem;
 }
 #lion { 
     background: #FFBD82;
-    padding: 3rem;
+    padding: 2rem;
 }
 #tiger {
     background: #B26219;
-    padding: 3rem;
+    padding: 2rem;
+    color: #fff;
 }
 footer {
     color: #fff;
